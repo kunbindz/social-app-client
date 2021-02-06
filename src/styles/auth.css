@@ -1,0 +1,34 @@
+.auth_page{
+    width: 100%;
+    min-height: 100vh;
+    background: #fdfdfd;
+    position: relative;
+}
+.text-uppercase{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+
+}
+.auth_page form{
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    border : 1px solid #ddd;
+    padding: 50px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.auth_page form .pass {
+    position: relative;
+}
+.auth_page form .pass small{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-60%);
+    cursor: pointer;
+    font-size: larger;
+
+}
